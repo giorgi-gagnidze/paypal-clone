@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 1.8rem;
+}
+
+.header-inside {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 13.5rem;
+}
+
+nav .menu {
+  display: flex;
+  list-style: none;
+  gap: 6rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+nav .menu .menu-item {
+  position: relative;
+}
+
+.bi-chevron-down {
+  position: absolute;
+  top: 0.3rem;
+  right: -2.2rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #005ea6;
+  width: 8rem;
+  height: 3.2em;
+  border-radius: 3.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.btn-login {
+  border: 1px solid #005ea6;
+}
+
+.btn-signup {
+  background-color: #0070ba;
+  color: #fff;
+}
+
+.btn-signup:hover {
+  background-color: #005ea6;
+}
